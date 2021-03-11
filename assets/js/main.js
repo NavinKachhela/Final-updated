@@ -15,3 +15,6 @@ var lazyLoadInstance = new LazyLoad({
     elements_selector: ".lazyload"
 });
 new WOW().init();
+document.addEventListener('contextmenu', function(e) {
+  e.preventDefault();
+});
